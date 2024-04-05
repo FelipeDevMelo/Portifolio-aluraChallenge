@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+	background-color: #151414;
+	color: #e6f4f1;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+main {
+	font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+	margin: 0 152px 0 152px;
+}
+
+.material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* CABEÇALHO */
+.header {
+	margin: 0 152px 0 152px;
+	display: flex;
+	justify-content: space-between;
+	height: 86px;
+	align-items: center;
+	font-family: "Raleway", sans-serif;
+}
+.navbar {
+	display: flex;
+	gap: 32px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+
+	color: #a6b2b0;
+
+	position: relative; /* para que a linha possa ser posicionada em relação a este elemento */
+}
+
+.navbar ul li a::after {
+	content: "";
+	position: absolute;
+	bottom: -3px; /* ajuste a altura da linha conforme necessário */
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #8876fb; /* cor da linha */
+	transition: width 0.3s; /* animação de transição da largura da linha */
+}
+
+.navbar ul li a:hover::after {
+	width: 100%; /* largura da linha ao passar o mouse */
+}
+
+/* CABEÇALHO */
+
+/* SEÇÃO ABOUT ME */
+.about-me {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+.Hero {
+	display: flex;
+	flex-direction: row;
+	gap: 17px;
+	align-items: center;
+}
+.titulo-group {
+	display: flex;
+	gap: 24px;
+	flex-direction: column;
+}
+.titulo-group h1 {
+	font-size: 52px;
+	font-weight: bold;
+	line-height: 45px;
+	background: -webkit-linear-gradient(0deg, #69baed 0%, #8876fb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.titulo-group p {
+	color: #a6b2b0;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.Links-redes-sociais ul li a {
+	color: #a6b2b0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+.about-me__container-secundario {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 64px 0 64px 0;
+}
+.subtitulo {
+	color: #65c5eb;
+	font-size: 32px;
+	font-weight: bold;
+}
+.about-me__container-secundario p {
+	color: #a6b2b0;
+	font-size: 16px;
+	width: 751px;
+	line-height: 24px;
+}
+
+/* SEÇÃO ABOUT ME */
+
+/* SEÇÃO SKILLS */
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.icones {
+	display: flex;
+	flex-direction: row;
+}
+
+/* SEÇÃO SKILLS */
+
+/* SEÇÃO PROJETOS */
+.projetos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+}
+.projeto1,
+.projeto3 {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.projeto2 {
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.projeto-about {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	color: #a6b2b0;
+	font-size: 22;
+	font-weight: bold;
+}
+.btn {
+	background-color: transparent;
+	border: solid 1px #8876fb;
+	color: #8876fb;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+
+.bnts-group {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+}
+/* SEÇÃO PROJETOS */
+.btn:hover{
+    color: #ffffff;
+}
+.animated-button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: linear-gradient(to right, #8876fb, #3498db);
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	z-index: -1;
+   
+}
+
+@keyframes fillWidth {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.animated-button:hover::before {
+	animation-name: fillWidth;
+   
+}
