@@ -75,8 +75,17 @@
 								</li>
 							</ul>
 						</nav>
+						<figure>
+							<img src="/Assets/assinatura.png" alt="" />
+						</figure>
 					</div>
-					<img class="perfil-img" src="/Assets/Perfil.png" alt="" />
+					<figure>
+						<img
+							class="perfil-img"
+							src="/Assets/Perfil.png"
+							alt=""
+						/>
+					</figure>
 				</div>
 				<div class="about-me__container-secundario">
 					<h2 class="subtitulo">Sobre min</h2>
@@ -84,12 +93,13 @@
 						Meu nome é Luiz Felipe e sou um desenvolvedor front-end
 						apaixonado por tecnologia e sempre em busca de evoluir
 						para me to rnar um desenvolvedor full-stack completo.
+						<br /><br />
 						Desde sempre, a tecnologia tem sido minha paixão e estou
 						constantemente motivado a buscar mais conhecimento para
-						alcançar meus objetivos. Acredito que o aprendizado
-						constante é a chave para o sucesso, e isso me impulsiona
-						a sempre buscar novas formas de melhorar minhas
-						habilidades e me manter atualizado no mercado.
+						alcançar meus objetivos. <br /><br />Acredito que o
+						aprendizado constante é a chave para o sucesso, e isso
+						me impulsiona a sempre buscar novas formas de melhorar
+						minhas habilidades e me manter atualizado no mercado.
 					</p>
 				</div>
 			</section>
@@ -139,7 +149,7 @@
 						<img src="/Assets/project2.png" alt="" />
 					</figure>
 					<div class="projeto-about">
-						<h3>Decodificador de texto</h3>
+						<h3>Landing page cafeteria</h3>
 						<div class="bnts-group">
 							<a href="#" class="btn animated-button"
 								>Repositório</a
@@ -153,7 +163,7 @@
 						<img src="/Assets/project3.png" alt="" />
 					</figure>
 					<div class="projeto-about">
-						<h3>Decodificador de texto</h3>
+						<h3>Landing page floricultura</h3>
 						<div class="bnts-group">
 							<a href="#" class="btn animated-button"
 								>Repositório</a
@@ -163,6 +173,68 @@
 					</div>
 				</section>
 			</section>
+
+			<section class="contact">
+				<figure><img src="/Assets/Telefone.png" alt="" /></figure>
+				<form action="/action_page.php">
+					<section class="titulo-contato">
+						<h2>Contato</h2>
+						<p>
+							Quer entrar em contato comigo?<br />
+							Preencha o formulário ao lado e entrarei em contato
+							o mais rápido possível.
+						</p>
+					</section>
+					<label class="label-input" for="InputName">Nome</label
+					><br />
+					<input
+						type="text"
+						id="InputName"
+						name="InputName"
+						class="input"
+					/><br />
+					<label class="label-input" for="InputEmail">Email</label
+					><br />
+					<input
+						type="text"
+						id="InputEmail"
+						name="InputEmail"
+						class="input"
+					/><br />
+					<label class="label-input" for="InputAssunto">Assunto</label
+					><br />
+					<input
+						type="text"
+						id="InputAssunto"
+						name="InputAssunto"
+						class="input"
+					/><br />
+					<label class="label-input" for="InputMensagem"
+						>Mensagem</label
+					><br />
+
+					<textarea
+						class="input"
+						id="InputMensagem"
+						name="InputMensagem"
+						rows="4"
+						cols="50"
+					>
+					</textarea>
+					<br />
+					<br />
+
+					<button class="btn animated-button" type="submit">
+						Enviar
+					</button>
+				</form>
+			</section>
 		</main>
+		<footer>
+			<p>
+				Desenvolvido por Luiz Felipe <br />
+				2024
+			</p>
+		</footer>
 	</body>
 </html>

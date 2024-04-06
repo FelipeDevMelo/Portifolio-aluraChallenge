@@ -8,9 +8,9 @@ body {
 }
 main {
 	font-family: "Raleway", sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
+	display: flex;
+	flex-direction: column;
+	gap: 10rem;
 	margin: 0 152px 0 152px;
 }
 
@@ -181,15 +181,13 @@ main {
 	font-size: 16px;
 }
 
-
 .bnts-group {
 	display: flex;
 	flex-direction: row;
 	gap: 16px;
 }
-/* SEÇÃO PROJETOS */
-.btn:hover{
-    color: #ffffff;
+.btn:hover {
+	color: #ffffff;
 }
 .animated-button::before {
 	content: "";
@@ -202,7 +200,6 @@ main {
 	animation-duration: 0.3s;
 	animation-fill-mode: forwards;
 	z-index: -1;
-   
 }
 
 @keyframes fillWidth {
@@ -216,5 +213,69 @@ main {
 
 .animated-button:hover::before {
 	animation-name: fillWidth;
-   
 }
+
+/* SEÇÃO PROJETOS */
+
+/* SEÇÃO CONTATO */
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2rem;
+	color: #a6b2b0;
+	gap: 2rem;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+.label-input {
+	font-size: 12px;
+}
+#InputMensagem {
+	height: 5rem;
+}
+.input {
+	color: #a6b2b0;
+	width: 450px;
+	border: none;
+	border-bottom: solid 1px #a6b2b0;
+	background-color: transparent;
+}
+textarea {
+	resize: none;
+}
+textarea,
+input:focus {
+	outline: none;
+	color: #8876fb;
+	border-color: #8876fb;
+}
+
+.titulo-contato {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 0 0 3rem 0;
+}
+.titulo-contato h2 {
+	color: #a6b2b0;
+	font-size: 32;
+	font-weight: bold;
+}
+form button {
+	width: 165px;
+}
+/* SEÇÃO CONTATO */
+
+/* FOOTER */
+
+footer {
+	color: #a6b2b0;
+	text-align: center;
+}
+
+/* FOOTER */
