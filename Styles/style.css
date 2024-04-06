@@ -5,13 +5,96 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
+	margin: 0 152px 0 152px !important;
 }
+
 main {
 	font-family: "Raleway", sans-serif;
 	display: flex;
 	flex-direction: column;
 	gap: 10rem;
-	margin: 0 152px 0 152px;
+}
+
+@media (max-width: 900px) {
+	.perfil-img {
+		width: 60%;
+	}
+	.menuinicial ul li:nth-child(1),
+	.menuinicial ul li:nth-child(2),
+	.menuinicial ul li:nth-child(3) {
+		display: none;
+	}
+	.header {
+		gap: 2rem;
+	}
+	.Hero {
+		flex-wrap: wrap;
+	}
+	.titulo-group {
+		order: 2;
+	}
+}
+@media screen and (max-width: 600px) {
+	form .input{
+		width: 300px;
+	}
+	.projeto1,
+	.projeto2,
+	.projeto3 {
+		gap: 16px;
+		justify-content: center;
+	}
+	.contact figure {
+		display: none;
+	}
+	.projeto1 figure img,
+	.projeto2 figure img,
+	.projeto3 figure img {
+		width: 400px;
+	}
+	.projetos .projeto2 {
+		flex-direction: row;
+	}
+	.about-me .about-me__container-secundario .subtitulo {
+		font-size: 22px;
+	}
+	.about-me .about-me__container-secundario p {
+		color: #a6b2b0;
+		font-size: 12px;
+		width: auto;
+		line-height: 14px;
+	}
+	.about-me .Hero .titulo-group p {
+		font-size: 12px;
+	}
+	.Links-redes-sociais ul li {
+		font-size: 12px;
+	}
+	.Links-redes-sociais ul {
+		display: flex;
+	}
+	body {
+		margin: 0 16px !important;
+	}
+	.about-me .Hero .titulo-group h1 {
+		font-size: 22px; /* Altere o tamanho da fonte do h1 dentro de .titulo-group */
+	}
+	.perfil-img {
+		width: 40%;
+	}
+	main {
+		margin: 0;
+	}
+	.hero {
+		flex-direction: row-reverse;
+	}
+	main {
+		margin: 0;
+	}
+	.header {
+		font-size: 12px;
+		margin: 0 !important;
+	}
 }
 
 .material-symbols-outlined {
@@ -20,11 +103,11 @@ main {
 
 /* CABEÇALHO */
 .header {
-	margin: 0 152px 0 152px;
 	display: flex;
 	justify-content: space-between;
 	height: 86px;
 	align-items: center;
+
 	font-family: "Raleway", sans-serif;
 }
 .navbar {
@@ -106,6 +189,7 @@ main {
 	align-items: center;
 	gap: 5px;
 }
+
 .about-me__container-secundario {
 	display: flex;
 	flex-direction: column;
@@ -136,6 +220,7 @@ main {
 .icones {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 /* SEÇÃO SKILLS */
@@ -150,13 +235,17 @@ main {
 .projeto1,
 .projeto3 {
 	align-items: center;
+
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
+
 .projeto2 {
 	align-items: center;
 	display: flex;
 	flex-direction: row-reverse;
+	flex-wrap: wrap;
 }
 
 .projeto-about {
