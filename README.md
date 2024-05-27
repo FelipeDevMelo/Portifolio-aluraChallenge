@@ -26,21 +26,19 @@ Para rodar o projeto localmente, siga os passos abaixo:
    git clone https://github.com/FelipeDevMelo/Portifolio-aluraChallenge.git
 Navegue até o diretório do projeto:
 
-bash
-Copiar código
-cd Portifolio-aluraChallenge
+   ```bash
+   cd Portifolio-aluraChallenge
+   ````
 Instale as dependências:
 
-bash
-Copiar código
+```
 npm install
-
+```
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar código
+```
 npm run dev
-
+```
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 
 ## Contribuindo
