@@ -46,9 +46,18 @@ Abra http://localhost:3000 no seu navegador para ver o resultado.
 
 Como Contribuir
 Faça um fork do projeto
-Crie uma nova branch (git checkout -b feature/nome-da-sua-feature)
-Commit suas alterações (git commit -m 'Adicionei uma nova feature')
-Envie para a branch (git push origin feature/nome-da-sua-feature)
+Crie uma nova branch:
+bash
+Copiar código
+git checkout -b feature/nome-da-sua-feature
+Commit suas alterações:
+bash
+Copiar código
+git commit -m 'Adicionei uma nova feature'
+Envie para a branch:
+bash
+Copiar código
+git push origin feature/nome-da-sua-feature
 Abra um Pull Request
 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
