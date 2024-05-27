@@ -3,7 +3,7 @@
 
 # Portifolio Alura Chanllenge
 
-Descrição breve do projeto. 
+Projeto feito para o desafio Alura onde criei um portifolio com algumas informações e projetos meus. 
 
 ## Visite o Site
 
