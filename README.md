@@ -1,4 +1,5 @@
-
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/FelipeDevMelo/Portifolio-aluraChallenge)
+![GitHub top language](https://img.shields.io/github/languages/top/FelipeDevMelo/Portifolio-aluraChallenge)
 
 
 # Portifolio Alura Challenge
