@@ -1,7 +1,7 @@
 
 
 
-# Portifolio Alura Chanllenge
+# Portifolio Alura Challenge
 
 Projeto feito para o desafio Alura onde criei um portifolio com algumas informações e projetos meus. 
 
