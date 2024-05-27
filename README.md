@@ -21,9 +21,10 @@ O site está hospedado no Vercel. Você pode acessá-lo através deste [link](ht
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
-1. Clone o repositório:
-   ```bash
+Clone o repositório:
+   ```
    git clone https://github.com/FelipeDevMelo/Portifolio-aluraChallenge.git
+```
 Navegue até o diretório do projeto:
 
    ```bash
