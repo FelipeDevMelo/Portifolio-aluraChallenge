@@ -44,25 +44,20 @@ npm run dev
 yarn dev
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-Como Contribuir
-Faça um fork do projeto
-Crie uma nova branch:
-bash
-Copiar código
-git checkout -b feature/nome-da-sua-feature
-Commit suas alterações:
-bash
-Copiar código
-git commit -m 'Adicionei uma nova feature'
-Envie para a branch:
-bash
-Copiar código
-git push origin feature/nome-da-sua-feature
-Abra um Pull Request
-Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## Contribuindo
 
-Contato
-Para sugestões ou dúvidas, sinta-se à vontade para abrir uma issue ou entrar em contato.
+Se você quiser contribuir com este projeto, siga estas etapas:
 
-Feito por Luiz Felipe
+1. Fork este repositório.
+2. Crie um branch para sua funcionalidade: `git checkout -b minha-funcionalidade`.
+3. Faça suas alterações e faça commit delas: `git commit -m 'Adicionando minha funcionalidade'`.
+4. Envie para o branch principal: `git push origin minha-funcionalidade`.
+5. Abra uma solicitação de pull.
+
+
+
+## Contato
+Meu email: Luizfelipe2011@gmail.com
+
+```
+
