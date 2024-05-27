@@ -34,15 +34,13 @@ Instale as dependências:
 bash
 Copiar código
 npm install
-# ou
-yarn install
+
 Inicie o servidor de desenvolvimento:
 
 bash
 Copiar código
 npm run dev
-# ou
-yarn dev
+
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 
 ## Contribuindo
